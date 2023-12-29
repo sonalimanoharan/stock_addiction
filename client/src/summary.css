@@ -1,0 +1,39 @@
+.display{
+    
+    align-items: center;
+    justify-content: center;
+}
+.stable_display
+{
+    margin-left: 35%;
+    width:30%;
+    border-collapse: collapse;
+    border-radius: 7px;
+   
+}
+th,td{
+   
+   color: lightgray;
+   
+}
+
+
+tr:nth-child(even)
+{
+    border-bottom: 1px solid #ddd;
+}
+tr:nth-child(even):hover
+{
+    opacity: .8;
+}
+tr:nth-child(odd)
+{
+    border-bottom: 1px solid #616060;
+}
+tr:nth-child(odd):hover{
+    opacity: .8;
+}
+.heading
+{
+    font-weight: bold;
+}

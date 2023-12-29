@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Work+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Roboto+Condensed:ital@1&display=swap');
+.webtitle1
+{
+    font-family: 'Tilt Neon', cursive;
+
+font-size: 70px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: whitesmoke;
+}
+.about1
+{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: whitesmoke;
+    font-size:x-large;
+    margin-left: 60px;
+    margin-right: 60px;
+    align-items: center;
+    justify-content: center;
+    line-height: 2em;
+}
+.footer1
+{
+    background-color: black;
+}
+.contact
+{
+    width: 30em;
+}
+.h:hover{
+opacity: 0.8;
+}
+.ab_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

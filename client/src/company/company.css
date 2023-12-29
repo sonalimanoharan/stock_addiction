@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Roboto+Condensed:ital@1&display=swap');
+.about{
+    
+  margin: auto;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 10px;
+}
+.heading,.ticker
+{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: whitesmoke;
+}
+.about_com
+{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: whitesmoke;
+    font-size:larger;
+}
+.extra
+{
+  margin-left: 65px;
+  width: 10em;
+  height: 3em;
+ border-radius: 5px;
+ font-size:medium;
+}
+.extra:hover{
+  opacity:.8
+}

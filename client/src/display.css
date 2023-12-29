@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Zen+Loop:ital@1&display=swap');
+
+.main
+{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:15em ;
+}
+.button_table
+{
+    width:600px
+}
+.Button{
+    width: 15em;
+    height: 15em;
+    font-family: 'Lato', sans-serif;
+   
+   box-shadow: 2px 2px 2px 2px black;
+}
+.Button:hover{
+    opacity:.7;
+}

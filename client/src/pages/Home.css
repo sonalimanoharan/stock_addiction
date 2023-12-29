@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Work+Sans:ital,wght@1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=PT+Serif:ital,wght@1,700&display=swap');
+.webtitle
+{
+    font-family: 'Tilt Neon', cursive;
+
+font-size: 70px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: whitesmoke;
+}
+.video
+{
+    margin-top: 30px;
+    margin-left: 825px;
+  
+}
+.status
+{
+    font-family: 'PT Serif', serif;
+    color: whitesmoke;
+}

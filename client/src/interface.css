@@ -1,0 +1,73 @@
+.big_div
+{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.value
+{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.table_display
+{
+    width:50%;
+    border-collapse: collapse;
+    border-radius: 7px;
+}
+th,td{
+    text-align: center;
+   color: lightgray;
+   
+}
+
+tr:nth-child(even)
+{
+    border-bottom: 1px solid #ddd;
+}
+tr:nth-child(even):hover
+{
+    opacity: .8;
+}
+tr:nth-child(odd)
+{
+    border-bottom: 1px solid #616060;
+}
+tr:nth-child(odd):hover
+{
+    opacity: .8;
+}
+.plot
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.graph
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px 3px;
+}
+.pred_input{
+    margin-left: 40px;
+}
+.pred_input:focus{
+    box-shadow: 2px 2px 2px 2px black;
+}
+.pred_button
+{
+    margin-left: 30px;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: azure;
+    border: 1px solid azure;
+    
+}
+.pred_button:hover
+{
+    opacity:0.5
+}

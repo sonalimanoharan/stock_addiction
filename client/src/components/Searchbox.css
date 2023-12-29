@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Zen+Loop:ital@1&display=swap');
+
+/*.webtitle
+{
+    font-family: 'Lato', sans-serif;
+    margin-top: 100px;
+}*/
+.search{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.searchInput
+{
+  position: absolute;
+  
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  
+
+  
+}
+
+.search input {
+    background-color: white;
+    
+    border: 0;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
+    font-size: 18px;
+    padding: 15px;
+    height: 45px;
+    width: 400px;
+  }
+  
+  .searchIcon {
+    height: 60px;
+    width: 50px;
+    background-color:white;
+    display:grid;
+    place-items:center;
+  }
+  input:focus {
+    outline: none;
+  }
+  .searchIcon svg {
+    font-size: 35px;
+  }
+.dataResult
+{
+    position: absolute;
+    margin-top:330px;
+    margin-right: 25px;
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 3px 0px 3px lightgray;
+    overflow: hidden;
+    overflow-y: auto;
+    border-radius: 5px;
+}
+.dataResult::-webkit-scrollbar
+{
+    display: none;
+}
+.dataResult.dataItem
+{
+    width: 100px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.dataItem p {
+    margin-left: 10px;
+    color: black;
+  }
+ a{
+text-decoration: none;
+ }
+ a:hover
+ {
+  background-color: black;
+ }
+ #clearBtn {
+  cursor: pointer;
+}

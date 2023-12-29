@@ -1,0 +1,52 @@
+.text
+{
+    
+    background-color: whitesmoke;
+}
+.htable_display
+{
+    width:90%;
+    border-collapse: collapse;
+    border-radius: 7px;
+}
+th,td{
+    text-align: center;
+   color: lightgray;
+   
+}
+
+tr:nth-child(even)
+{
+    border-bottom: 1px solid #ddd;
+}tr:nth-child(even):hover
+{
+    opacity: .8;
+}
+tr:nth-child(odd)
+{
+    border-bottom: 1px solid #616060;
+}
+tr:nth-child(odd):hover
+{
+    opacity: .8;
+}
+.hpred_button
+{
+    margin-left: 60px;
+    width: 10em;
+  height: 3em;
+ border-radius: 5px;
+ font-size:medium;
+    
+}
+.hpred_button:hover
+{
+    opacity: .8;
+}
+.hist_div
+{
+   margin-left: 100px;
+   margin-right: 80pxpx;
+    align-items: center;
+    justify-content: center;
+}

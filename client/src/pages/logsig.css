@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Zen+Loop:ital@1&display=swap');
+
+*
+{
+    box-sizing: border-box;
+}
+.logcontainer
+{
+    margin-top: 70px;
+    width: 100%;
+   display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+
+   
+}
+.shift
+{
+  color:whitesmoke
+}
+.log_link
+{
+  color: plum;
+  padding: 5px;
+}
+.hidden
+{
+  visibility: hidden;
+}
+.content {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid transparent;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-top: 5px;
+    border-radius: 6px;
+    box-shadow:0px 3px 3px 3px black;
+}
+.formtitle
+{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22.5pt;
+    text-align: center;
+    color: whitesmoke;
+}
+.footer 
+{
+    display: flex;
+  align-items: center;
+    justify-content: center;
+    
+}
+.footer button{
+    background-color:whitesmoke ;
+    border: 1px #4ba6de;
+    font-size: medium;
+    padding: 6px;
+   border-radius: 3.5px;
+    margin-bottom: 4px;
+}
+.footer button:hover{
+   opacity: .5;
+}
+.imagecontainer{
+      width: 15em;
+      
+      }
+.imagecontainer img {
+        width: 100%;
+        height: 100%
+
+}
+.form{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formgrp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+    
+}
+label {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+
+  }
+  .log_label
+  {
+    color: whitesmoke;
+  }
+  input {
+    margin-top: 6px;
+    min-width: 15em;
+    height: 35px;
+    padding: 0px 6px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    background-color: #f3f3f3;
+    border: 0;
+    border-radius: 4px;
+    margin-bottom: 31px;
+    transition: all 250ms ease-in-out;
+    
+  }
+    
+    input:focus {
+      outline: none;
+      box-shadow: 0px 0px 12px 0.8px #595d63b2;
+    }

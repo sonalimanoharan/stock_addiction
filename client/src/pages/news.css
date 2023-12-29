@@ -1,0 +1,35 @@
+.news_button
+{
+    box-shadow: 2px 2px 2px 2px black;
+   
+}
+.card
+{
+    border-radius: 5px ;
+   box-shadow: 2px 2px 2px 2px black;
+   width: 800px;
+   margin:auto;
+   padding: 5px;
+   padding-bottom:10px ;
+  
+}
+.card-title
+{
+    color:whitesmoke;
+    font-weight: bold;
+    font-size: large;
+   
+
+}
+.card-text
+{
+    color:whitesmoke;
+}
+.link
+{
+    color: aliceblue;
+    padding: 10px;
+}
+.link:hover{
+    fill-opacity: inherit;
+}
